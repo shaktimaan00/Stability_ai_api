@@ -48,8 +48,8 @@ Static files (images) are served from the current directory.
 ## Example
 
 Let's say you want to generate an image of "a lady walking on beach, close up":
-1. Make a GET request to `http://localhost:3000/generate-image?prompt=a%20lady%20walking%20on%20beach,%20close%20up`.
+1. Make a GET request to `https://stability-ai-api.onrender.com/generate-image?prompt=a%20lady%20walking%20on%20beach,%20close%20up`.
 2. The server will generate the image and return an array of URLs where the images are stored.
 3. You can access the generated image by visiting the provided URL in your browser.
 
-That's it! You've successfully used the Image Generation API provided by this repository.
+That's it! You've successfully used the Image Generation API provided by this repository.🎉🎉
