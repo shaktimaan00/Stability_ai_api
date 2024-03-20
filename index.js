@@ -56,6 +56,17 @@ app.get('/generate-image', async (req, res) => {
     }
 });
 
+app.get('/', (req,res) => {
+    try{
+        console.log("welcome to development server");
+        res.send("welcome to development server");
+    }
+    catch(error){
+        console.error('Error connecting to server', error);
+        res.status(500).json({ error: 'Error connecting to server' });
+    }
+})
+
 // Serve static files from the current directory
 app.use(express.static('.'));
 
